@@ -22,4 +22,12 @@ class Person {
   }
 }
 
-module.exports = { Person };
+let person = new Person("Ryan", 30, "male", [
+  "being a hardarse",
+  " agile",
+  " ssd hard drives.",
+]);
+let greeting = person.hello();
+console.log(greeting);
+
+module.exports = { person };
