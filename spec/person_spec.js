@@ -1,4 +1,9 @@
-const { person } = require("../src/person.js");
+const { Person } = require("../src/person.js");
+let person = new Person("Ryan", 30, "male", [
+  "being a hardarse",
+  " agile",
+  " ssd hard drives.",
+]);
 
 describe("hello", function () {
   it("Should check the name", function () {

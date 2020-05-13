@@ -30,4 +30,4 @@ let person = new Person("Ryan", 30, "male", [
 let greeting = person.hello();
 console.log(greeting);
 
-module.exports = { person };
+module.exports = { Person };
